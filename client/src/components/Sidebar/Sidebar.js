@@ -22,15 +22,17 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Sidebar(props) {
   const { modeNao } = props
+
+  const [ naoChangeStatement, setNaoChangeStatement ] = useState(false)
+
   const classes = useStyles();
 
   const naoTalking = naoSidebar(modeNao)
   let x = 0
-  const [ changeStatement, setChangeStatement ] = useState(false)
 
   if(naoTalking.heSays.length > 1) {
     setTimeout(() => {  
-      setChangeStatement(true)
+      setNaoChangeStatement(true)
     }, 5000);
   }
   
@@ -39,10 +41,10 @@ export default function Sidebar(props) {
     <div className="sidebar__menu">
       <div className="naoCircular__speaking"> 
         <div> 
-            {!changeStatement &&
+            {(!naoChangeStatement || naoTalking.heSays.length === 1) &&
               naoTalking.heSays[0]
             }
-            { changeStatement &&
+            { naoChangeStatement &&
               naoTalking.heSays[x+1]
             }
         </div>                
