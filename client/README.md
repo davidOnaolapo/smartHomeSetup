@@ -5,11 +5,10 @@ Node.js, express and Psql.
 
 ## Final Product
 
-![""]()
-
-![""]()
-
-![""]()
+!["Nao welcomes you to Smartville"](https://github.com/davidOnaolapo/smartHomeSetup/blob/master/docs/Smartville_welcome.png?raw=true)
+!["First survey question"](https://github.com/davidOnaolapo/smartHomeSetup/blob/master/docs/Smartville_budget_survey.png?raw=true)
+!["Final survey question"](https://github.com/davidOnaolapo/smartHomeSetup/blob/master/docs/Smartville_products_survey.png?raw=true)
+!["Here are your recommendations"](https://github.com/davidOnaolapo/smartHomeSetup/blob/master/docs/Smartville_recommendations.png?raw=true)
 
 ## Setup
 
