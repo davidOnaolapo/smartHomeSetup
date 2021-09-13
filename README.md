@@ -1,4 +1,4 @@
-# Interview Scheduler
+# Smartville
 
 Smartville is an application that helps you set up your smart home. Our handy helper nao guides you through the process, by explaining what apps you need to download and recommending products for you based on your budget and needs. It was built with React, SCSS, JavaScript, 
 Node.js, express and Psql.
