@@ -12,27 +12,25 @@ Node.js, express and Psql.
 
 ## Setup
 
-1.Install dependencies on the client side with `npm install`
+1. Install dependencies on the client side with `npm install`
 
-2.Install dependencies on the server side with `npm install`
+2. Install dependencies on the server side with `npm install`
 
-3.Create the .env by using .env.example as a reference
+3. Create the .env by using .env.example as a reference
 
-4.Update the .env file with your correct local information
+4. Update the .env file with your correct local information
 DB_HOST=localhost
 DB_USER=smart
 DB_PASS=smart
 DB_NAME=final
 
-6.Install dependencies: npm i
+6. Install dependencies: npm i
 
-7.Fix to binaries for sass: npm rebuild node-sass
+8. Reset database: npm run db:reset
 
-8.Reset database: npm run db:reset
+9. Check the db folder to see what gets created and seeded in the SDB
 
-9.Check the db folder to see what gets created and seeded in the SDB
-
-10.Run the server: npm run local
+10. Run the server: npm run local
 
 Note: nodemon is used, so you should not have to restart your server
 
